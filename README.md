@@ -3,7 +3,6 @@ this project just for private repository plugins.
 
 # Dependencies
 - gulp-cli
-- node-sass
 - phantomjs-prebuilt
 - jpegtran-bin
 - pngquant-bin
