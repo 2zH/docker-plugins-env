@@ -1,0 +1,16 @@
+from-image:
+  image: "${plugins_image}"
+  volumes:
+    - ./plugins:/plugins
+  ports:
+    - "3000:3000"
+    - "3001:3001"
+  command: bash
+from-build:
+  build: .
+  volumes:
+    - ./plugins:/plugins
+  ports:
+    - "3000:3000"
+    - "3001:3001"
+  command: bash

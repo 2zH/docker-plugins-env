@@ -12,4 +12,11 @@ this project just for private repository plugins.
 - karma-cli
 - scss-lint
 
-WARNNING: DO NOT USE IT IN DOCKER FOR WINDOWS!
+```
+git clone {plugins.git}
+docker-compose run --name plugins from-image
+// or
+docker-compose run --name plugins from-build
+```
+
+WARNNING: DO NOT USE BUILD IN DOCKER FOR WINDOWS!
