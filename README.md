@@ -21,7 +21,7 @@ docker-compose exec plugins-env bash
 
 cd plugins
 
-yarn --no-bin-links
+npm install
 ```
 
 WARNNING: DO NOT BUILD DOCKER IMAGE IN DOCKER FOR WINDOWS!
